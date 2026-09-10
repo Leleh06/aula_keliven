@@ -4,8 +4,8 @@ export default function Perfil(){
 
          <ol style={{backgroundColor: '#D3D3D3', margin: '25px, 20px'}}>
             <hr />
-            <p>Nome:Ângela dos Santos.</p>
-            <p>Idade: 18.</p>
+            <p>Nome:Leticya Dias</p>
+            <p>Idade: 19</p>
             <p>Curso:Aprendizagem Industrial em Programador de Sistemas da Informação.</p>
             <hr />
              <blockquote>
