@@ -1,0 +1,63 @@
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 18px;
+    box-shadow: 0 8px 22px rgb(0,0,0, 0.6);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-6px);
+}
+
+.categoria{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: black;
+}
+
+.categoria.Periféricos{
+    background: blue;
+}
+
+.categoria.Áudio{
+    background: rgb(98, 98, 177);
+}
+
+.categoria.Monitor{
+    background: rgb(39, 39, 95);
+}
+
+.categoria.Promoção{
+    background: rgb(10, 10, 22);
+}
+
+.informacao{
+    padding: 15px;
+}
+
+.image{
+    max-width: 100%;
+    background: black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
