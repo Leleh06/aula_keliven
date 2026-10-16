@@ -4,10 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 250px;
     border-radius: 10px;
     gap: 20px;
-    padding: 18px;
     box-shadow: 0 8px 22px rgb(0,0,0, 0.6);
     transition: 0.3s;
 }
@@ -23,7 +21,7 @@
   color: white;
   font-size: 12px;
   font-weight: bold;
-  padding: 4px 8px;
+  padding: 8px 15px;
   border-radius: 999px;
   background: black;
 }
@@ -46,9 +44,10 @@
 
 .informacao{
     padding: 15px;
+    text-align: center;
 }
 
-.image{
+.imagem{
     max-width: 100%;
     background: black;
     height: 200px;
@@ -60,4 +59,16 @@
     border-radius: 20px;
 }
 
+.nome{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    min-height: 48px;
+}
+
+
+.preco{
+    color: brown;
+    font-size: 28px;
+}
 

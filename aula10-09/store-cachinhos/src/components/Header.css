@@ -1,6 +1,6 @@
 
 header{
-    background-color: #f4acb7;
+    background: linear-gradient(80deg, #0d3b66 0%, #0066cc 100%);
     color: rgb(255, 255, 255);
     height: 250px;
     display: flex;
@@ -8,8 +8,15 @@ header{
     align-items: center;
     justify-content: center;
     border-radius: 25px;
+    margin: 20px;
 }
 
 header h1{
-    color: #450920;
+    color: #fcf9f9;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p{
+    color: #ebc4d3;
 }

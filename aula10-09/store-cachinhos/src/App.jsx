@@ -1,5 +1,6 @@
 import Card from "./components/Card"
 import Header from "./components/Header"
+import "./styles/style.css"
 
 function App() {
   const produtos = [
